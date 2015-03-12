@@ -37,7 +37,8 @@
 
 				$(layer).css({top:y,left:x})
 
-		})
+		});
+        	$(window).resize($.fn.plaxmove(options)); // fix for resize windows
 
 	};
 })(jQuery);
